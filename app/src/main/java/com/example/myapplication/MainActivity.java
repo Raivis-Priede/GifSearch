@@ -121,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
     public void request(String searchText, Boolean isRefreshing) {
-        String apiKey = "uNmVu4lbmD2R4C3bFPNk2yE3Jj07Kk6d";
+        String apiKey = "*******************************";
         String url = "https://api.giphy.com/v1/gifs/search?api_key=" + apiKey +
                 "&q=" + searchText +
                 "&limit=" + PAGE_SIZE +
